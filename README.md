@@ -1,4 +1,9 @@
 ```shell script
+cp .env.example .env
+cp epoch_55.pth /mmdetection/work_dirs/final_cycle/spinenet/
+```
+
+```shell script
 docker builder prune
 docker build -t scmm .
 docker run -d -it --name scmmcon -p 8000:8000 -v .:/app scmm
