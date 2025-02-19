@@ -1,0 +1,9 @@
+uvicorn==0.33.0
+fastapi==0.115.8
+python-multipart==0.0.20
+
+loguru
+pydantic==2.10.6
+pydantic_settings==2.7.1
+
+openai==1.62.0
